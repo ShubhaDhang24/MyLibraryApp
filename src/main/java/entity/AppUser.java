@@ -19,5 +19,51 @@ public class AppUser {
     @JoinColumn(name ="detailsId")
     Details details;
 
+    public int getAppUserId() {
+        return appUserId;
+    }
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public LocalDateTime getDateTime() {
+        return dateTime;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Details getDetails() {
+        return details;
+    }
+
+    public AppUser(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
+
+    }
+
+    public AppUser() {
+    }
+
+    @Override
+    public String toString() {
+        return "AppUser{" +
+                "appUserId=" + appUserId +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", dateTime=" + dateTime +
+                ", details=" + details +
+                '}';
+    }
 }
