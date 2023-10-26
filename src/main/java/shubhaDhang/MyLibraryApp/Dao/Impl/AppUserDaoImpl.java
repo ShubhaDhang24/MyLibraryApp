@@ -1,7 +1,7 @@
-package Dao.Impl;
+package shubhaDhang.MyLibraryApp.Dao.Impl;
 
-import Dao.AppUserDao;
-import entity.AppUser;
+import shubhaDhang.MyLibraryApp.Dao.AppUserDao;
+import shubhaDhang.MyLibraryApp.entity.AppUser;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;

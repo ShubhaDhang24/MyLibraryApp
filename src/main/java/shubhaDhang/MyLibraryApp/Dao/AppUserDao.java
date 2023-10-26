@@ -1,7 +1,6 @@
-package Dao;
+package shubhaDhang.MyLibraryApp.Dao;
 
-import entity.AppUser;
-import entity.Details;
+import shubhaDhang.MyLibraryApp.entity.AppUser;
 
 import java.util.Collection;
 import java.util.Optional;

@@ -1,7 +1,7 @@
-package Dao.Impl;
+package shubhaDhang.MyLibraryApp.Dao.Impl;
 
-import Dao.DetailsDao;
-import entity.Details;
+import shubhaDhang.MyLibraryApp.Dao.DetailsDao;
+import shubhaDhang.MyLibraryApp.entity.Details;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
