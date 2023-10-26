@@ -1,4 +1,4 @@
-package entity;
+package shubhaDhang.MyLibraryApp.entity;
 
 import jakarta.persistence.*;
 

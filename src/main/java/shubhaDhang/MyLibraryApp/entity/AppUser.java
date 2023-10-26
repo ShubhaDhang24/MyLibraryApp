@@ -1,8 +1,9 @@
-package entity;
+package shubhaDhang.MyLibraryApp.entity;
 
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 public class AppUser {
@@ -18,6 +19,8 @@ public class AppUser {
     @OneToOne
     @JoinColumn(name ="detailsId")
     Details details;
+    @OneToMany(mappedBy = "borrower")
+    private List<BookLoan> bookLoans;
 
     public int getAppUserId() {
         return appUserId;
